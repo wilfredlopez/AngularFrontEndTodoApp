@@ -1,0 +1,17 @@
+mat-form-field {
+  width: 100%;
+}
+
+mat-card {
+  /* background: rgb(41, 43, 47); */
+  font-size: 1.2rem;
+}
+
+button {
+  margin-top: 0.8rem;
+}
+
+label {
+  /* color: #cecece; */
+  color: #747171;
+}

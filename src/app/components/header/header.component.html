@@ -1,0 +1,30 @@
+<nav>
+  <mat-toolbar color="primary">
+    <span>
+      <a routerLink="/">IGottaSay</a>
+    </span>
+    <span class="spacer"></span>
+    <ul>
+      <li *ngIf="userAthenticated" class="add-btn">
+        <!-- <a mat-button routerLink="/create" routerLinkActive="mat-accent">CREATE</a> -->
+        <a mat-mini-fab color="primary" routerLink="/create" routerLinkActive="mat-accent" aria-label="create post">
+          <mat-icon>add</mat-icon>
+        </a>
+      </li>
+      <li *ngIf="!userAthenticated">
+        <a mat-button routerLink="/auth/login" routerLinkActive="mat-accent">LOGIN</a>
+      </li>
+      <li *ngIf="!userAthenticated">
+        <a mat-button routerLink="/auth/signup" routerLinkActive="mat-accent">SIGNUP</a>
+      </li>
+      <li *ngIf="userAthenticated">
+        <button mat-button (click)="onLogout()">
+          <span class="username">{{userInfo.username}}</span>
+          <!-- LOGOUT -->
+        </button>
+      </li>
+    </ul>
+
+
+  </mat-toolbar>
+</nav>

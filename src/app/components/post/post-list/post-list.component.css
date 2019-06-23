@@ -1,0 +1,44 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+mat-expansion-panel {
+  /* background: rgb(41, 43, 47); */
+  font-size: 1.2rem;
+}
+
+mat-card-content {
+  padding-top: 0.5rem;
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  max-width: 450px;
+  height: 300px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 50%);
+  /* height: 16rem; */
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+.updated {
+  color: #797474;
+}
+mat-card-actions {
+  text-align: right;
+  display: block;
+}
