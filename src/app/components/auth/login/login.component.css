@@ -15,3 +15,7 @@ label {
   /* color: #cecece; */
   color: #747171;
 }
+
+.mat-input-element {
+  padding: 5px;
+}

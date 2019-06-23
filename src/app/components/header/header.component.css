@@ -10,7 +10,9 @@ a {
   color: #fff;
 }
 
-a:hover {
+a:hover,
+a:active,
+.active {
   color: #4de24d;
 }
 

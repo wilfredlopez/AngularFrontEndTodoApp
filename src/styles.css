@@ -21,5 +21,9 @@ main {
 }
 
 *:focus {
-  outline: 3px solid orange !important;
+  outline: 3px solid rgba(255, 165, 0, 0.67) !important;
+}
+
+.mat-input-element {
+  padding: 5px;
 }
